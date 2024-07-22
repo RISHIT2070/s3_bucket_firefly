@@ -6,7 +6,7 @@ module "terraform-aws-cloudtrail-s3-bucket" {
   }
   terraform {
  backend "s3" {
-   bucket = "834277767436-tf-state"
+   bucket = "dev-rishi"
     key    = "ecr.tfstate"
     region = "ap-south-1"
   }
