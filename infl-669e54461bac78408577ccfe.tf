@@ -3,6 +3,7 @@ module "terraform-aws-cloudtrail-s3-bucket" {
 
   environment = "dev"
   name        = "rishi"
+  versioning  =  true
   }
   terraform {
  backend "s3" {
